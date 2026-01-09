@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    width: 1600px;
+    height: 92px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 136px;
+    align-items: center;
+    gap: 32px;
+    
+}
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+nav .menu .but{
+    margin-left: 346px;
+    border: none;
+    padding: 12.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+}
+nav .logo{
+    padding-left: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
