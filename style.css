@@ -1,14 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
+   
 nav{
     display: flex;
     justify-content: space-between;
     background-color:#FFFFFF;
     width: 1600px;
     height: 92px;
+    margin-bottom: 0px;
 }
 .menu{
     display: flex;
@@ -23,9 +24,10 @@ nav{
 nav .menu a{
     text-decoration: none;
     color: black;
-    font-family: inherit;
+  font-family: 'inter',sans-serif;
     font-weight: 500;
     font-size: 16px;
+    padding: 34px 0px;
     
 }
 nav .menu .but{
@@ -39,4 +41,95 @@ nav .logo{
     padding-left: 120px;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+#ban{
+    background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+}
+#banner{
+   margin: 0px 120px 263.5px 120px;
+   padding: 51px 295px 76px 295px ;
+   
+}
+#banner  #early{
+    margin:0px 270.5px 16px  270.5px;
+    padding: 8px 12px 8px 16px;
+    color: #469165;
+    font-family: 'inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 229px;
+    height: 35px;
+}
+#banner .text h1{
+    font-weight:bolder;
+    font-size: 70px;
+    display: inline;
+    color: #FFFFFF;
+   
+}
+#banner .text h2{
+    
+    font-weight:bolder;
+    font-size: 75px;
+    display: flex;
+    color: #30B868;
+   margin-bottom: 16px;
+}
+#banner .next .small {
+    font-family: inherit;
+    
+    font-size: 8px;
+    margin:0px 295px 0px 295px;
+    
+}
+ #banner .text .next{
+    align-items: center;
+    font-family: 'inter',sans-serif;
+}
+#banner .text .buu{
+    margin: 0px 447.5px 0px 447.5px;
+    
+    
+}
+#nc{
+    text-align: center;
+    margin-bottom: 32px;
+}
+#ss{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+#buu{
+    width: 251px;
+    height: 51px;
+    padding: 16px 12px;
+    font-family: 'inter'sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    background-color: #30B868;
+    color: white;
+    border-radius: 4px;
+
+}
+#as{
+    width: 198px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16.5px 16px 16.5px 36px;
+    font-family: 'inter'sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+}
+#early{
+    width: 229px;
+    height: 35px;
+    background-color:#FFFFFF ;
+    padding: 12px 8px;
+    border-radius: 1000px;
+    align-items: center;
+
 }
