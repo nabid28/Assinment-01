@@ -30,7 +30,7 @@ nav .menu a{
     padding: 34px 0px;
     
 }
-nav .menu .but{
+#but{
     margin-left: 346px;
     border: none;
     padding: 12.5px 16px;
@@ -336,4 +336,19 @@ margin: 80px 120px 30px 120px;
     text-align: center;
     color: white;
     margin: 0px 120px;
+}
+#but:hover{
+    background-color: blue;
+}
+#buu:hover{
+    background-color: blue;
+}
+#as:hover{
+    background-color:blue;
+}
+#early:hover{
+    background-color:blue;
+}
+#tkkk:hover{
+    background-color:blue;
 }
