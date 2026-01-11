@@ -45,22 +45,22 @@ nav .logo{
 #ban{
     background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     width: 1600px;
-    height: 674px;
+    height: auto;
 }
 #banner{
-   margin: 0px 120px 263.5px 120px;
+   margin: 0px 120px 0px 120px;
    padding: 51px 295px 76px 295px ;
    
 }
 #banner  #early{
-    margin:0px 270.5px 16px  270.5px;
-    padding: 8px 12px 8px 16px;
+    margin:0px 250.5px 0px  250.5px;
+padding: 8px  12px 8px 0px;
+    display: inline;
     color: #469165;
     font-family: 'inter',sans-serif;
     font-weight: 500;
     font-size: 16px;
-    width: 229px;
-    height: 35px;
+    
 }
 #banner .text h1{
     font-weight:bolder;
@@ -77,16 +77,12 @@ nav .logo{
     color: #30B868;
    margin-bottom: 16px;
 }
-#banner .next .small {
-    font-family: inherit;
-    
-    font-size: 8px;
-    margin:0px 295px 0px 295px;
-    
-}
  #banner .text .next{
     align-items: center;
     font-family: 'inter',sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color: white;
 }
 #banner .text .buu{
     margin: 0px 447.5px 0px 447.5px;
@@ -123,8 +119,9 @@ nav .logo{
     font-family: 'inter'sans-serif;
     font-weight: 600px;
     font-size: 16px;
-}
+    background-color: transparent;}
 #early{
+  
     width: 229px;
     height: 35px;
     background-color:#FFFFFF ;
@@ -132,4 +129,211 @@ nav .logo{
     border-radius: 1000px;
     align-items: center;
 
+}
+#baf{
+    width: 1360px;
+    height: 152px;
+    text-align: center;
+   ;
+}
+.fbc{
+    background-color: #F7F6F2;
+}
+#te{
+    margin: 0px 120px;
+    text-align: center;
+    padding-bottom: 36px;
+    padding-top: 46px;
+     font-family: 'inter'sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    
+    
+}
+#sm{
+    text-align: center;
+}
+  .card{
+   
+
+    height: 280px;
+    width: 302px;
+    gap: 7px;
+    background-color: #FFFFFF;
+    box-shadow:20px #F7F6F2 ;
+   
+  }
+  .cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px 0px 120px;
+   
+    
+  }
+  .card-icon{
+    height: 60px;
+    width: 60px;
+    background-color:#F95555;
+     padding: 14.04px 13.91px 13.96px 14.09px;
+  
+  margin: 63.54px 124.91px 0px 125.09px;
+  border-radius: 50%
+  
+     
+    
+   
+  }
+  .card-title{
+  text-align: center;
+  margin-top: 16px;
+  font-family: 'inter'sans-serif;
+  font-weight: 600px;
+  font-size: 24px;
+  }
+  .card-text{
+    padding: 16px 24px 0px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+  }
+  .bannertt{
+height: 600px;
+width: 1360px;
+margin: 100px  120px 0px 120px ;
+display: flex;
+  }
+  #se{
+    padding-top: 102px;
+    font-family:'inter'sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #469165;
+  }
+  #bii{
+    padding-top: 16px;
+   font-family:'inter'sans-serif;
+    font-weight: 700;
+    font-size: 46px; ;
+    
+    
+  }
+  #st{
+    padding-top: 16px;
+    font-family:'inter'sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #627382;
+  }
+  
+  
+  .ll-list {
+    margin-top: 40px;
+    font-family:'inter'sans-serif;
+    font-weight: 500;
+    font-size: 16px; ;}
+   
+
+.tem{
+    display: flex;         
+    align-items: center;   
+    gap: 6px;         
+    margin-bottom: 16px;  
+    font-family:'inter'sans-serif;
+    font-weight: 500;
+    font-size: 16px; ;
+   
+}
+
+.tem img {
+    width: 20px;        
+    height: 20px;
+}
+
+.tem p {
+    margin: 0;             
+    font-size: 16px;
+    color: #001931;
+}
+  .text{
+    padding-left: 60px;
+  }
+ 
+
+
+.banner-section {
+    background-color:#F7F6F2; 
+  height: 364px;
+  width: 1260px; 
+    text-align: center;
+    margin: 100px 120px 100px 120px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-title{
+ font-family: 'inter'sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+}
+.sub-title{
+    font-family: 'inter'sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color:#627382 ;
+    padding-top: 16px;
+}
+#tkkk{
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: #469165;
+    margin-top: 24px;
+    
+}
+#jkjk{
+    font-family: 'inter'sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color:#627382 ;
+    padding-top: 16px;
+}
+.third{
+    height: 348px;
+    width: 100%;
+    background-color: #001931;
+  
+}
+#lktv{
+    display: flex;
+   justify-content: space-between;
+   color: #FFFFFF;
+  
+}
+.lltt{
+    padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+#pan{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+#bef{
+width: 85%;
+height: 2px;
+background-color:#627382;
+margin: 80px 120px 30px 120px;
+}
+#lastfooter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0px 120px;
 }
